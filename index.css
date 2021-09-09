@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: aqua;
+}
+
+.container {
+    min-height: 100%;
+}
+
+nav {
+    background-color: white;
+}
+
+section {
+    overflow:auto;
+    padding-bottom: 200PX;
+}
+
+.footer {
+    background-color: blue;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    clear: both;
+}
